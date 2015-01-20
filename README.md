@@ -51,7 +51,7 @@ class BaseController extends Controller
      */
     public function getAllUsers()
     {
-        return $this->withInactive()->get();
+        return User::withInactive()->get();
     }
 
 }
