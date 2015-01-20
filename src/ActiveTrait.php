@@ -1,4 +1,4 @@
-<?php namespace UpSync\Scope;
+<?php
 
 trait ActiveTrait {
 

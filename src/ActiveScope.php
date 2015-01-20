@@ -1,4 +1,4 @@
-<?php namespace UpSync\Scope;
+<?php
 
 use Illuminate\Database\Query\Builder as BaseBuilder;
 use Illuminate\Database\Eloquent\Builder;
