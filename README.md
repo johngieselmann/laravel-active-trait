@@ -33,15 +33,14 @@ class User extends Eloquent
 
 I know what you're thinking, "What if I want inactive rows as well?" Well,
 that is easy too. You just need to call the `withInactive()` method in your
-query builder.
+query builder. Let's pretend you need to get all active an inactive users from
+your base controller...
 
 ```
 <?php
 
-class User extends Eloquent
+class BaseController extends Controller
 {
-    // use the active trait for this model
-    use ActiveTrait;
 
     ...
 
